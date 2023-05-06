@@ -9,6 +9,8 @@ export default function MainChatContainer() {
 
 
 
+
+
     const handleSubmit = async (event) => {
         event.preventDefault();
 
@@ -31,10 +33,6 @@ export default function MainChatContainer() {
     const handleInputChange = (event) => {
         setInputText(event.target.value);
     }
-
-
-
-
 
 
 

@@ -22,6 +22,7 @@ def preprocess_text(request):
         # Preprocess the input text
         
         processed_text = db(input_text)
+        
 
         return JsonResponse({'processed_text': processed_text})
     else:
