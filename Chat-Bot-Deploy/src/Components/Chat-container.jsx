@@ -10,7 +10,6 @@ export default function MainChatContainer() {
 
 
 
-
     const handleSubmit = async (event) => {
         event.preventDefault();
 
@@ -60,6 +59,8 @@ export default function MainChatContainer() {
                         </a>
                     </div>
                 </div>
+                        {/*--------------------DEFAULT SEND TEXT MESSAGE----------------- */}
+
 
                 <div className="message me mb-4 flex text-right font-typeWriting">
                     <div className="flex-1 px-2 hover:-translate-y-0.5 duration-300 cursor-pointer">
