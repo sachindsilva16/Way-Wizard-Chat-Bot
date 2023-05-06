@@ -13,12 +13,9 @@ import MainMiddleContainer from "./MainMiddleContainer";
 export default function App() {
     return (
 
-
         // --- [MAIN CONTAINER] --
         <div className="w-full h-screen">
             <div className="flex w-full h-screen">
-
-
 
                 {/*--- [LEFT CONTAINER] ---*/}
                 <LeftContainer />
